@@ -12,7 +12,7 @@ namespace HaliSahaOtomasyon.Model
     public class Context:DbContext
     {
 
-        private SqlConnection connection = new SqlConnection(@"Data Source=DESKTOP-EJK09BS;Initial Catalog=HaliSahaDb;Integrated Security=true;");
+        private SqlConnection connection = new SqlConnection(@"Data Source=DESKTOP;Initial Catalog=HaliSahaDb;Integrated Security=true;");
 
         public SqlConnection GetCon()
         {
